@@ -15,7 +15,6 @@ Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipa
 - [Python 3.12](https://www.python.org/downloads/)
 - [VS Code](https://code.visualstudio.com/)
 - [Extensão Jupyter do VS Code](https://marketplace.visualstudio.com/search?term=jupyter&target=VSCode&category=All%20categories&sortBy=Relevance)
-- [QGIS](https://qgis.org/) (Para execução de `gdalinfo.exe`, `gdalwarp.exe`, `ogrinfo.exe` ou `qgis_process-qgis-ltr.bat`)
 
 
 ## Dicas para gerenciar múltiplas versões do Python
@@ -51,7 +50,7 @@ Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipa
 > python -m pip install -r requirements.txt
 ```
 
-## Selecionar o kernel no VS Code
+## Selecionar este ambiente Python em um notebook (`.ipynb`) no VS Code
 
 - `Select Kernel` > `Python Environments...` > `.venv\Scripts\python.exe`
 
