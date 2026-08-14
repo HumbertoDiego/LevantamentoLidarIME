@@ -9,3 +9,5 @@ scipy>=1.14,<2
 laspy[lazrs]>=2.5,<3
 open3d>=0.19,<1
 plotly>=6,<7
+geopandas>=1.1,<1.2
+pdal>=3.5,<4
