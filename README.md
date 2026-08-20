@@ -66,7 +66,7 @@ git add * ; git commit -m "aula update"; git push lidar main --force
 
 # comandos
 pelo adb shell:
-echo | nc -w 2 -q 1 192.168.56.1 80 >/dev/null 2>&1 && echo "80 OPEN" || echo "80 CLOSED"
+echo | nc -w 2 -q 1 192.168.56.1 19700 >/dev/null 2>&1 && echo "19700 OPEN" || echo "19700 CLOSED"
 
 pelo Windows:
 Status Check Command:
