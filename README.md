@@ -59,8 +59,58 @@ git pull lidar main
 git add * ; git commit -m "aula update"; git push lidar main
 jupyter nbconvert --to slides 01_Intro.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
 
-reset
+# reset
 git init
 git remote add lidar https://github.com/HumbertoDiego/LevantamentoLidarIME
 git add * ; git commit -m "aula update"; git push lidar main --force
+
+# comandos
+pelo adb shell:
+echo | nc -w 2 -q 1 192.168.56.1 80 >/dev/null 2>&1 && echo "80 OPEN" || echo "80 CLOSED"
+
+pelo Windows:
+Status Check Command:
+curl --location --request GET 'http://192.168.10.1:19700/slam/get_error_status'
+Success:
+{
+  "data": {
+    "code_camera": 0,
+    "code_command": 0,
+    "code_fpga": 0,
+    "code_i2000": 0,
+    "code_imu": 0,
+    "code_lidar": 0,
+    "code_mcu": 0,
+    "code_raster": 0,
+    "code_time_sync": 0
+  },
+  "message": "",
+  "status": 0
+}
+Ready State Condition::
+code_command & 0x01 << 15 == 1 indicates the device is operational.
+
+Starting the Device:
+curl --location --request GET 'http://192.168.10.1:19700/slam/start_work'
+Success:
+{
+  "data": {
+    "status": 2
+  },
+  "message": "",
+  "status": 0
+}
+Stopping the Device:
+curl --location --request GET 'http://192.168.10.1:19700/slam/end_work'
+Successful
+{
+  "data": {
+    "status": 3
+  },
+  "message": "",
+  "status": 0
+}
+
+outros:
+https://wiki.feima.cool/en/sdk/slam/http
 -->
