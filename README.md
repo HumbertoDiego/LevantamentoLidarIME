@@ -1,7 +1,7 @@
 # LevantamentoLidarIME
 Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipamento LiDAR para o 2º ano do Curso Básico do Instituto Militar de Engenharia.
 
-## Sequência didática
+## Aulas
 
 - [01 Introdução ao LiDAR](01_Intro.ipynb): teoria LiDAR/SLAM, atributos e formatos de nuvem, leitura e visualização interativa de amostras PCD e LAS.
 - [02 Planejamento](02_Planejamento.ipynb): valores humanos, EAP, juntada de requisitos e métodos de gestão de tarefas.
@@ -66,7 +66,7 @@ git add * ; git commit -m "aula update"; git push lidar main --force
 
 # comandos
 pelo adb shell:
-echo | nc -w 2 -q 1 192.168.56.1 80 >/dev/null 2>&1 && echo "80 OPEN" || echo "80 CLOSED"
+echo | nc -w 2 -q 1 192.168.56.1 19700 >/dev/null 2>&1 && echo "19700 OPEN" || echo "19700 CLOSED"
 
 pelo Windows:
 Status Check Command:
