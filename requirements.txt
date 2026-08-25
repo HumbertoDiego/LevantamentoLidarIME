@@ -1,0 +1,14 @@
+ipykernel
+jupyter
+matplotlib
+nbclient
+nbformat
+numpy
+pandas
+scipy
+laspy[lazrs]
+plotly
+geopandas
+open3d
+gdown
+pypcapkit
