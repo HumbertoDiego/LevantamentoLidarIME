@@ -5,9 +5,10 @@ Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipa
 
 - [01 Introdução ao LiDAR](01_Intro.ipynb): teoria LiDAR/SLAM, atributos e formatos de nuvem, leitura e visualização interativa de amostras PCD e LAS.
 - [02 Planejamento](02_Planejamento.ipynb): valores humanos, EAP, juntada de requisitos e métodos de gestão de tarefas.
-- [03 Execução](03_Execucao.ipynb): equipamento, campanhas de campo, controle de qualidade, registro, filtragem, classificação e reconstrução 3D.
-- [04 Entregas e Análise](04_Analise.ipynb): produtos esperados e validação
-- [05 Encerramento](05_Encerramento.ipynb): apresentação, demonstração, aceite, entrega final e lições aprendidas.
+- [03 Exploração](03_Exploracao.ipynb): Investigção até onde possível em cima dos dados proprietários do hardware utilizado.
+- [04 Execução](04_Execucao.ipynb): equipamento, campanhas de campo, controle de qualidade, registro, filtragem, classificação e reconstrução 3D.
+- [05 Entregas e Análise](05_Analise.ipynb): produtos esperados e validação
+- [06 Encerramento](06_Encerramento.ipynb): apresentação, demonstração, aceite, entrega final e lições aprendidas.
 
 
 ## Requisitos
@@ -15,6 +16,8 @@ Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipa
 - [Python 3.12](https://www.python.org/downloads/)
 - [VS Code](https://code.visualstudio.com/)
 - [Extensão Jupyter do VS Code](https://marketplace.visualstudio.com/search?term=jupyter&target=VSCode&category=All%20categories&sortBy=Relevance)
+- [Cloude Compare](https://www.cloudcompare.org/)
+- [LasTools](https://lastools.github.io/)
 
 
 ## Dicas para gerenciar múltiplas versões do Python
