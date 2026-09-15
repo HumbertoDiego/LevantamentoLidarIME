@@ -5,7 +5,9 @@ Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipa
 
 - [01 Introdução ao LiDAR](01_Intro.ipynb): teoria LiDAR/SLAM, atributos e formatos de nuvem, leitura e visualização interativa de amostras PCD e LAS.
 - [02 Planejamento](02_Planejamento.ipynb): valores humanos, EAP, juntada de requisitos e métodos de gestão de tarefas.
-- [03 Exploração](03_Exploracao.ipynb): Investigção até onde possível em cima dos dados proprietários do hardware utilizado.
+- [03 Exploração API](03_Exploracao_API.ipynb): Investigação da API informada pelo fabricante
+- [03 Exploração FILES](03_Exploracao_FILES.ipynb): Investigação dos arquivos gravados no cartão de memória de um projeto SLAM
+- [03 Exploração TRANSFORMS](03_Exploracao_TRANSFORMS.ipynb): Investigação até onde possível em cima dos dados proprietários do hardware utilizado.
 - [04 Execução](04_Execucao.ipynb): equipamento, campanhas de campo, controle de qualidade, registro, filtragem, classificação e reconstrução 3D.
 - [05 Entregas e Análise](05_Analise.ipynb): produtos esperados e validação
 - [06 Encerramento](06_Encerramento.ipynb): apresentação, demonstração, aceite, entrega final e lições aprendidas.
