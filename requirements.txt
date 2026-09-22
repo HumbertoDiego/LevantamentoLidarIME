@@ -1,5 +1,6 @@
 ipykernel
 ipywidgets
+ipympl
 jupyter
 matplotlib
 nbclient
