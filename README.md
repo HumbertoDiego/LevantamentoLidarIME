@@ -15,6 +15,18 @@ Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipa
 
 ## Requisitos
 
+### Conversão dos binários FEIMA para TXT
+
+O [converter.py](converter.py) converte `.fmraster`, `.fmimr` e
+`.fmimu` da variante identificada neste projeto, usando apenas o Python.
+Os TXT são salvos ao lado dos binários, sem sobrescrever arquivos existentes:
+
+```powershell
+python .\converter.py ..\SN_000XX\PROJ1
+```
+
+### Ambiente dos notebooks
+
 - [Python 3.12](https://www.python.org/downloads/)
 - [VS Code](https://code.visualstudio.com/)
 - [Extensão Jupyter do VS Code](https://marketplace.visualstudio.com/search?term=jupyter&target=VSCode&category=All%20categories&sortBy=Relevance)
