@@ -12,37 +12,15 @@ Aulas e instruções sobre levantamento de nuvem de pontos 3D por meio de equipa
 - [05 Entregas e Análise](05_Analise.ipynb): produtos esperados e validação
 - [06 Encerramento](06_Encerramento.ipynb): apresentação, demonstração, aceite, entrega final e lições aprendidas.
 
-
 ## Requisitos
 
-### Conversão dos binários FEIMA para TXT
-
-O [converter.py](converter.py) converte `.fmraster`, `.fmimr` e
-`.fmimu` da variante identificada neste projeto, usando apenas o Python.
-Os TXT são salvos ao lado dos binários, sem sobrescrever arquivos existentes:
-
-```powershell
-python .\converter.py ..\SN_000XX\PROJ1
-```
-
-### Ambiente dos notebooks
+### Ambiente
 
 - [Python 3.12](https://www.python.org/downloads/)
 - [VS Code](https://code.visualstudio.com/)
 - [Extensão Jupyter do VS Code](https://marketplace.visualstudio.com/search?term=jupyter&target=VSCode&category=All%20categories&sortBy=Relevance)
 - [Cloude Compare](https://www.cloudcompare.org/)
 - [LasTools](https://lastools.github.io/)
-
-
-## Dicas para gerenciar múltiplas versões do Python
-
-- Instale o [Python Install Manager](https://www.python.org/downloads/)
-```powershell
-> py install 3.9 3.10 3.11 3.12 3.14 # Instala as versões python de 3.9 a 3.14
-> python --version # Python 3.14.5
-> $Env:PYTHON_MANAGER_DEFAULT = "3.12" # Altera a versão para esta seção de terminal apenas
-> python --version # Python 3.12.10 --> Daqui pode-se criar o ambiente
-```
 
 ## Criar o ambiente
 
@@ -67,9 +45,29 @@ python .\converter.py ..\SN_000XX\PROJ1
 > python -m pip install -r requirements.txt
 ```
 
+## Dicas para gerenciar múltiplas versões do Python
+
+- Instale o [Python Install Manager](https://www.python.org/downloads/)
+```powershell
+> py install 3.9 3.10 3.11 3.12 3.14 # Instala as versões python de 3.9 a 3.14
+> python --version # Python 3.14.5
+> $Env:PYTHON_MANAGER_DEFAULT = "3.12" # Altera a versão para esta seção de terminal apenas
+> python --version # Python 3.12.10 --> Daqui pode-se criar o ambiente
+```
+
 ## Selecionar este ambiente Python em um notebook (`.ipynb`) no VS Code
 
 - `Select Kernel` > `Python Environments...` > `.venv\Scripts\python.exe`
+
+## Conversão dos binários FEIMA para TXT
+
+O [converter.py](converter.py) converte `.fmraster`, `.fmimr` e
+`.fmimu` da variante identificada neste projeto, usando apenas o Python.
+Os TXT são salvos ao lado dos binários, sem sobrescrever arquivos existentes:
+
+```powershell
+python .\converter.py ..\SN_000XX\PROJ1
+```
 
 <!--
 git pull lidar main
